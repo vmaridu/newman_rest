@@ -2,14 +2,14 @@
 > An extension of newman (open-source postman cli) to trigger and audit tests,  download and deliver test reports 
 
 ### what webman can do ? 
- - upload postman collections and enviorments
+ - upload postman collections and environments
  - trigger test runs (collection + environment) via api
  - schedule (collection + environment) using cron based config 
  - web-hook integrations to notify test failures
  - provide postman collection design standards to better work with newman or webman
 
 ~~~
-// hirarchey 
+// hierarchy 
 workspace
   environment
   collection
@@ -19,5 +19,5 @@ workspace
 
 ### future enhancements 
   - user access control
-  - ci/cd intergrations
+  - ci/cd integrations
   - multi database integration 
