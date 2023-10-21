@@ -1,0 +1,424 @@
+{
+	"info": {
+		"_postman_id": "2e7a0511-77fb-4af9-9675-762b7312f58d",
+		"name": "at_nmn_e2e_sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5438910"
+	},
+	"item": [
+		{
+			"name": "methods",
+			"item": [
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/get",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/delete",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"key1\" : \"value1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{http_bin.base_url}}/post",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"key1\" : \"value1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{http_bin.base_url}}/put",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"put"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"key1\" : \"value1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{http_bin.base_url}}/patch",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"patch"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "request inspection",
+			"item": [
+				{
+					"name": "headers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/headers",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"headers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ip",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/ip",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"ip"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user-agent",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/user-agent",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"user-agent"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "response inspection",
+			"item": [
+				{
+					"name": "cache",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/cache",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"cache"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "response headers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/response-headers",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"response-headers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "response headers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{http_bin.base_url}}/response-headers",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"response-headers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "status codes",
+			"item": [
+				{
+					"name": "get 200",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/status/200",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"status",
+								"200"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get 404",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/status/404",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"status",
+								"404"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "dynamic",
+			"item": [
+				{
+					"name": "decode base64",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/base64/SFRUUEJJTiBpcyBhd2Vzb21l",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"base64",
+								"SFRUUEJJTiBpcyBhd2Vzb21l"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "random bytes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/bytes/10",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"bytes",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "uuid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/uuid",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"uuid"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "images",
+			"item": [
+				{
+					"name": "jpeg",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/image/jpeg",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"image",
+								"jpeg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "png",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/image/png",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"image",
+								"png"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "svg",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/image/svg",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"image",
+								"svg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "webp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{http_bin.base_url}}/image/webp",
+							"host": [
+								"{{http_bin.base_url}}"
+							],
+							"path": [
+								"image",
+								"webp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

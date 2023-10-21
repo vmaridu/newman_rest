@@ -1,0 +1,90 @@
+➜  newman git:(main) ✗ newman run 'at_nmn_e2e_sample.postman_collection.json' -e 'nmn_e2e_qa.postman_environment.json'
+newman
+
+at_nmn_e2e_sample
+
+❏ methods
+↳ get
+  GET https://httpbin.org/get [200 OK, 636B, 170ms]
+
+↳ delete
+  DELETE https://httpbin.org/delete [200 OK, 702B, 28ms]
+
+↳ post
+  POST https://httpbin.org/post [200 OK, 823B, 28ms]
+
+↳ put
+  PUT https://httpbin.org/put [200 OK, 822B, 25ms]
+
+↳ patch
+  PATCH https://httpbin.org/patch [200 OK, 824B, 25ms]
+
+❏ request inspection
+↳ headers
+  GET https://httpbin.org/headers [200 OK, 554B, 24ms]
+
+↳ ip
+  GET https://httpbin.org/ip [200 OK, 261B, 22ms]
+
+↳ user-agent
+  GET https://httpbin.org/user-agent [200 OK, 273B, 24ms]
+
+❏ response inspection
+↳ cache
+  GET https://httpbin.org/cache [200 OK, 724B, 25ms]
+
+↳ response headers
+  GET https://httpbin.org/response-headers [200 OK, 297B, 24ms]
+
+↳ response headers
+  POST https://httpbin.org/response-headers [200 OK, 297B, 24ms]
+
+❏ status codes
+↳ get 200
+  GET https://httpbin.org/status/200 [200 OK, 236B, 24ms]
+
+↳ get 404
+  GET https://httpbin.org/status/404 [404 NOT FOUND, 243B, 24ms]
+
+❏ dynamic
+↳ decode base64
+  GET https://httpbin.org/base64/SFRUUEJJTiBpcyBhd2Vzb21l [200 OK, 255B, 23ms]
+
+↳ random bytes
+  GET https://httpbin.org/bytes/10 [200 OK, 247B, 24ms]
+
+↳ uuid
+  GET https://httpbin.org/uuid [200 OK, 282B, 23ms]
+
+❏ images
+↳ jpeg
+  GET https://httpbin.org/image/jpeg [200 OK, 35.81kB, 40ms]
+
+↳ png
+  GET https://httpbin.org/image/png [200 OK, 8.31kB, 25ms]
+
+↳ svg
+  GET https://httpbin.org/image/svg [200 OK, 9.21kB, 22ms]
+
+↳ webp
+  GET https://httpbin.org/image/webp [200 OK, 10.79kB, 24ms]
+
+┌─────────────────────────┬───────────────────┬───────────────────┐
+│                         │          executed │            failed │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              iterations │                 1 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│                requests │                20 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│            test-scripts │                 0 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│      prerequest-scripts │                 0 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              assertions │                 0 │                 0 │
+├─────────────────────────┴───────────────────┴───────────────────┤
+│ total run duration: 857ms                                       │
+├─────────────────────────────────────────────────────────────────┤
+│ total data received: 66.91kB (approx)                           │
+├─────────────────────────────────────────────────────────────────┤
+│ average response time: 32ms [min: 22ms, max: 170ms, s.d.: 31ms] │
+└─────────────────────────────────────────────────────────────────┘
