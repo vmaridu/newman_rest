@@ -1,5 +1,6 @@
-# webman
-> An extension of newman (open-source postman cli) to trigger and audit tests,  download and deliver test reports 
+# newman rest
+> rest-api extension of newman
+> newman is a open-source postman cli which does api testing. 
 
 ### what webman can do ? 
  - upload postman collections and environments
