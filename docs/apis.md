@@ -91,7 +91,7 @@ POST    /newman/test_schedules
 ~~~
 
 
-### Get 
+### Get test schedule reports 
 ~~~
 GET    /newman/test_schedules/{{test_schedule_id}}/test_executions
 
