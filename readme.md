@@ -5,9 +5,8 @@
  - provides api to (upload and manage) postman collections and environments
  - provides api to (run and cron-schedule) api tests
  - provides web-hooks for api test notification
-
-
-### [apis](docs/apis.md)
+ - [click here](docs/setup.md) for new setup guide
+ - [click here](docs/apis.md) for newman rest apis 
 
 
 ### future enhancements 
